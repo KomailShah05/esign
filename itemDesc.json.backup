@@ -1,0 +1,4332 @@
+{
+    "descriptions": [
+        
+        {
+            "mfg": "PSG",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window Front Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window Back Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window Left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "Elephant",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "Eagle",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends_vert",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2_vert",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "24\" X 36\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "24\" X 36\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "24\" X 36\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "24\" X 36\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+        
+        {
+            "mfg": "CarolinaCarports",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+        
+        {
+            "mfg": "SBS",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "Interstate",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "24\" X 36\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "34\" X 36\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "24\" X 36\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "24\" X 36\" Window right wall"
+                },
+                {
+                    "name": "Garage Door",
+                    "api_name": "t10x8_g_door",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "American",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "CarportNetwork",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "24\" X 36\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "24\" X 36\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "24\" X 36\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "24\" X 36\" Window right wall"
+                },
+                {
+                    "name": "Garage Door",
+                    "api_name": "t10x8_g_door",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "Dreams",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "WestCoast",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage Door",
+                    "api_name": "t10x8_g_door",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door"
+                },
+                {
+                    "name": "Garage Door",
+                    "api_name": "t10x10_g_door",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "TriStateCarports",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "24\" X 36\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "24\" X 36\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "24\" X 36\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "24\" X 36\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "QualityCarports",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+
+        {
+            "mfg": "Midwest",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage Door",
+                    "api_name": "t10x8_g_door",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        },
+        
+        {
+            "mfg": "Lonestar",
+            "items": [
+                {
+                    "name": "price override",
+                    "api_name": "price_override",
+                    "api_value": "price override",
+                    "desc": "Price Override -"
+                },
+                {
+                    "name": "left wall",
+                    "api_name": "tlwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "right wall",
+                    "api_name": "trwall",
+                    "api_value": "close_side1",
+                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside1",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside1",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "front gable",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable",
+                    "desc": "Front Wall with Horizontal Gable"
+                },
+                {
+                    "name": "back gable",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable",
+                    "desc": "Back Wall with Horizontal Gable"
+                },
+                {
+                    "name": "front gable vertical",
+                    "api_name": "tgable_ends",
+                    "api_value": "gable_vert",
+                    "desc": "Front Wall with Vertical Gable"
+                },
+                {
+                    "name": "back gable vertcal",
+                    "api_name": "tgable_ends2",
+                    "api_value": "gable_vert",
+                    "desc": "Back Wall with Vertical Gable"
+                },
+                {
+                    "name": "end wall front",
+                    "api_name": "tesf",
+                    "api_value": "close_front",
+                    "desc": "Front End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wall front vertical",
+                    "api_name": "tvfend",
+                    "api_value": "vend",
+                    "desc": "Front End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "end wall back",
+                    "api_name": "tesb",
+                    "api_value": "close_front",
+                    "desc": "Back End Wall, Horizontal Sheeting"
+                },
+                {
+                    "name": "end wal back vertical",
+                    "api_name": "tvbend",
+                    "api_value": "vend",
+                    "desc": "Back End Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "auger",
+                    "api_name": "tauger",
+                    "api_value": "25",
+                    "desc": "Auger Anchor"
+                },
+                {
+                    "name": "auger concrete",
+                    "api_name": "tauger_concrete",
+                    "api_value": "25",
+                    "desc": "Concrete Auger Anchor"
+                },
+                {
+                    "name": "auger hi wind",
+                    "api_name": "tauger_wind",
+                    "api_value": "25",
+                    "desc": "Hi-Wind Auger Anchor"
+                },
+                {
+                    "name": "12 gauge",
+                    "api_name": "tgauge",
+                    "api_value": "gauge",
+                    "desc": "12 Gauge Structural Frame Upgrade"
+                },
+                {
+                    "name": "certified",
+                    "api_name": "tcertified",
+                    "api_value": "certified",
+                    "desc": "Certified Upgrade"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height1.5",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "building height",
+                    "api_name": "theight",
+                    "api_value": "height3_cert",
+                    "desc": "Leg Height Adder: 7'"
+                },
+                {
+                    "name": "vertical left side",
+                    "api_name": "tvlside",
+                    "api_value": "vside2",
+                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "vertical right side",
+                    "api_name": "tvrside",
+                    "api_value": "vside2",
+                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_front",
+                    "api_value": "walkin door front",
+                    "desc": "Walkin Door Front Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_back",
+                    "api_value": "walkin door back",
+                    "desc": "Walkin Door Back Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_left",
+                    "api_value": "walkin door left",
+                    "desc": "Walkin Door Left Wall"
+                },
+                {
+                    "name": "walkin door",
+                    "api_name": "twalkin_right",
+                    "api_value": "walkin door right",
+                    "desc": "Walkin Door Right Wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_front",
+                    "api_value": "window front",
+                    "desc": "30\" X 30\" Window front wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_back",
+                    "api_value": "window back",
+                    "desc": "30\" X 30\" Window back wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_left",
+                    "api_value": "window left",
+                    "desc": "30\" X 30\" Window left wall"
+                },
+                {
+                    "name": "window",
+                    "api_name": "twindow_right",
+                    "api_value": "window right",
+                    "desc": "30\" X 30\" Window right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x8_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 8' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t10x10_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "10' X 10' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t9x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "9' X 7' Garage Door Left Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Right wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t8x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "8' X 7' Garage Door Left wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_front",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Front Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_back",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Back Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_right",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Right Wall"
+                },
+                {
+                    "name": "Garage door",
+                    "api_name": "t6x7_g_door_left",
+                    "api_value": "Garage Door",
+                    "desc": "6' X 7' Garage Door Left Wall"
+                }
+
+            ]
+        }
+    ]
+}

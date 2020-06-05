@@ -1,0 +1,43 @@
+const app = module.exports = require('express')();
+const hellosign = require('hellosign-sdk')({key: 'f8bfbc4614bfe9a27a2d3dc30470134b1e14c7f817d68f21cae350269e8da1a4'});
+
+app.post('/psg', function(req, res){
+    let post = req.body;
+
+    console.log(post);
+    
+    let opts = {
+      test_mode: 1,
+      clientId: 'f32ba3bc527060803f3753f8baf1b312',
+      template_id: '3e1b5831893095558c992de6e5a37ccc9b99f05c',
+      subject: 'Caport Purchase Agreement',
+      message: 'Please sign this agreement to complete your purchase!',
+      signers: [
+        {
+          email_address: 'jwarnes@gmail.com',
+          name: post.name,
+          role: 'Customer'
+        }
+      ],
+      custom_fields: post.fields
+    };
+
+    data = {};
+
+    hellosign.signatureRequest.createEmbeddedWithTemplate(opts)
+        .then(function(response){
+            data = response;
+            let signatureId = response.signature_request.signatures[0].signature_id;
+            return hellosign.embedded.getSignUrl(signatureId);
+        })
+        .then(function(response){
+            data = response.embedded;
+        })
+        .catch(function(err){
+            data = err;
+        })
+        .finally(function(){
+            res.type('json');
+            res.json(data);
+        });
+});
