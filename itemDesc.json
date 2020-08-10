@@ -2006,76 +2006,76 @@
                     "desc": "Price Override -"
                 },
                 {
-                    "name": "left wall",
+                    "name": "left side wall",
                     "api_name": "tlwall",
                     "api_value": "close_side1",
-                    "desc": "Close Left Side Wall, Horizontal Sheeting"
+                    "desc": "Left Side Wall"
                 },
                 {
-                    "name": "right wall",
+                    "name": "right side wall",
                     "api_name": "trwall",
                     "api_value": "close_side1",
-                    "desc": "Close Right Side Wall, Horizontal Sheeting"
+                    "desc": "Right Side Wall"
                 },
                 {
-                    "name": "vertical left side",
+                    "name": "left side wall",
                     "api_name": "tvlside",
                     "api_value": "vside1",
-                    "desc": "Close Left Side Wall, Vertical Sheeting"
+                    "desc": "Left Side Vertical Upgrade"
                 },
                 {
-                    "name": "vertical right side",
+                    "name": "right side wall",
                     "api_name": "tvrside",
                     "api_value": "vside1",
-                    "desc": "Close Right Side Wall, Vertical Sheeting"
+                    "desc": "Right Side Vertical Upgrade"
                 },
                 {
                     "name": "front gable",
                     "api_name": "tgable_ends",
                     "api_value": "gable",
-                    "desc": "Front Wall with Horizontal Gable"
+                    "desc": "Front End Wall Gabled, Horizontal"
                 },
                 {
                     "name": "back gable",
                     "api_name": "tgable_ends2",
                     "api_value": "gable",
-                    "desc": "Back Wall with Horizontal Gable"
+                    "desc": "Back End Wall Gabled, Horizontal"
                 },
                 {
                     "name": "front gable vertical",
                     "api_name": "tgable_ends_vert",
                     "api_value": "gable_vert",
-                    "desc": "Front Wall with Vertical Gable"
+                    "desc": "Front End Wall Gabled, Vertical"
                 },
                 {
                     "name": "back gable vertcal",
                     "api_name": "tgable_ends2_vert",
                     "api_value": "gable_vert",
-                    "desc": "Back Wall with Vertical Gable"
+                    "desc": "Back End Wall Gabled, Vertical"
                 },
                 {
-                    "name": "end wall front",
+                    "name": "front end wall",
                     "api_name": "tesf",
                     "api_value": "close_front",
-                    "desc": "Front End Wall, Horizontal Sheeting"
+                    "desc": "Front End Wall"
                 },
                 {
-                    "name": "end wall front vertical",
+                    "name": "front end wall",
                     "api_name": "tvfend",
                     "api_value": "vend",
-                    "desc": "Front End Wall, Vertical Sheeting"
+                    "desc": "Front End Wall Vertical Upgrade"
                 },
                 {
-                    "name": "end wall back",
+                    "name": "back end wall",
                     "api_name": "tesb",
                     "api_value": "close_front",
-                    "desc": "Back End Wall, Horizontal Sheeting"
+                    "desc": "Back End Wall"
                 },
                 {
-                    "name": "end wal back vertical",
+                    "name": "back end wall",
                     "api_name": "tvbend",
                     "api_value": "vend",
-                    "desc": "Back End Wall, Vertical Sheeting"
+                    "desc": "Back End Wall Vertical Upgrade"
                 },
                 {
                     "name": "anchor",
@@ -2106,18 +2106,6 @@
                     "api_name": "theight",
                     "api_value": "height3_cert",
                     "desc": "Leg Height Adder"
-                },
-                {
-                    "name": "vertical left side",
-                    "api_name": "tvlside",
-                    "api_value": "vside2",
-                    "desc": "Close Left Side Wall, Vertical Sheeting"
-                },
-                {
-                    "name": "vertical right side",
-                    "api_name": "tvrside",
-                    "api_value": "vside2",
-                    "desc": "Close Right Side Wall, Vertical Sheeting"
                 },
                 {
                     "name": "walkin door",
@@ -2166,12 +2154,6 @@
                     "api_name": "twindow_right",
                     "api_value": "window right",
                     "desc": "24\" X 36\" Window right wall"
-                },
-                {
-                    "name": "Garage Door",
-                    "api_name": "t10x8_g_door",
-                    "api_value": "Garage Door",
-                    "desc": "10' X 8' Garage Door"
                 },
                 {
                     "name": "Garage door",
