@@ -910,17 +910,6 @@ app.post('/api/sign/new/:mfgId', function(req, res) {
     /*** custom logic per manufacturer
      * convert fields
     */
-
-    // get address info from correct fields!
-    if (post.fields.copy) {
-        post.fields.customerInst = post.fields.customer;
-        post.fields.streetInst = post.fields.street;
-        post.fields.cityInstall = post.fields.city;
-        post.fields.stateInstall = post.fields.state;
-        post.fields.zipInst = post.fields.zip;
-        post.fields.phoneInst = post.fields.phone2;
-    }
-    //
     
     if (mfg == 'PSG') {
         // do we need to remove groundLevelYes and groundLevelNo?
