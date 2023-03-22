@@ -1,11 +1,11 @@
 const app = module.exports = require('express')();
 
 app.get('/status', (req, res) => {
-  res.send({status: "online"});
+  res.send({status: "online", version: '1.13'});
 });
 
 app.use('/event', require("./event"));
-app.use('/new', require("./new/"));
+//app.use('/new', require("./new/"));
 app.use('/update', require("./update"));
 app.use('/util', require("./util"));
 
